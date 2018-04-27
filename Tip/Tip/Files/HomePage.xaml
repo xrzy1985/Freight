@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tip.Files.HomePage">
+
+
+    <StackLayout Margin="25, 125, 25, 0" WidthRequest="400" HorizontalOptions="Center">        
+        
+        <Image WidthRequest="200" HeightRequest="200" Aspect="AspectFit" Source="https://s3-media3.fl.yelpcdn.com/ephoto/DwRbEYlc79N4ic62WUj_WA/o.jpg"/>
+
+        <Label HorizontalOptions="Center" Text="{Binding break_line}"/>
+
+        <Label HorizontalOptions="Center" Text="{Binding displayed_information}"/>
+
+    </StackLayout>
+
+</ContentPage>
